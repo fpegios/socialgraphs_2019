@@ -1,1 +1,1 @@
-# socialgraphs_2019
+# DTU - Social Graphs and Interactions 2019
