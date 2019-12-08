@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd project/website && npm run build",
+    "postinstall": "cd project/website && vue-cli-service build",
     "start": "node server.js"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/fpegios/socialgraphs_2019#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.1"
   }
 }
