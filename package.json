@@ -21,6 +21,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
     "@vue/cli-service": "^4.1.1"
   }
 }
