@@ -9,6 +9,9 @@
           <b-tab title="Analysis">
             <Analysis />
           </b-tab>
+          <b-tab title="Community Detection">
+            <CommunityDetection />
+          </b-tab>
         </b-tabs>
       </b-col>
     </b-row>
@@ -18,12 +21,14 @@
 <script>
 import Dataset from './Dataset.vue'
 import Analysis from './Analysis.vue'
+import CommunityDetection from './CommunityDetection.vue'
 
 export default {
   name: 'Index',
   components: {
     Dataset,
-    Analysis
+    Analysis,
+    CommunityDetection
   }
 }
 </script>

@@ -23,8 +23,16 @@ html, body, #app {
 }
 
 .tab-content {
-  margin-left: 130px;
-  padding: auto 30px;
+  margin-left: 220px;
+}
+
+.tab-pane {
+  padding-left: 50px!important;
+  padding-right: 50px!important;
+}
+
+.img-fluid {
+  /* max-width: 70%!important; */
 }
 
 </style>

@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <div class="col overflow-auto">
-          <img :src="require('../assets/dataset.png')" class="rounded mx-auto d-block" alt="Dataset Sample">
+          <img :src="require('../assets/dataset.png')" class="rounded">
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
 
     <ul>
       <li>How alcoholic drinks are connected to each other using <b>Network Analysis</b></li>
-      <li>Which ingredients are mostly used togehter using <b>Community Detection</b> and <b>Wordclouds</b></li>
+      <li>Which ingredients are mostly used together using <b>Community Detection</b> and <b>Wordclouds</b></li>
       <li>The most common instruction keywords per glass type and drink category using <b>Wordclouds</b></li>
       <li>And finally the most used ingredients per drink category using <b>WordClouds</b></li>
     </ul>
