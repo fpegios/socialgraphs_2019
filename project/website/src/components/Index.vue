@@ -3,17 +3,11 @@
     <b-row class="h-100" no-gutters>
       <b-col>
         <b-tabs class="h-100" pills card vertical align="center">
-          <b-tab title="Introduction" active>
-            <Introduction />
-          </b-tab>
-          <b-tab title="Dataset">
+          <b-tab title="Dataset" active>
             <Dataset />
           </b-tab>
-          <b-tab title="Network Analysis">
-            <NetworkAnalysis />
-          </b-tab>
-          <b-tab title="Conclusion">
-            <Conclusion />
+          <b-tab title="Analysis">
+            <Analysis />
           </b-tab>
         </b-tabs>
       </b-col>
@@ -22,21 +16,14 @@
 </template>
 
 <script>
-import Introduction from './Introduction.vue'
 import Dataset from './Dataset.vue'
-import NetworkAnalysis from './NetworkAnalysis.vue'
-import Conclusion from './Conclusion.vue'
+import Analysis from './Analysis.vue'
 
 export default {
   name: 'Index',
   components: {
-    Introduction,
     Dataset,
-    NetworkAnalysis,
-    Conclusion
-  },
-  props: {
-    msg: String
+    Analysis
   }
 }
 </script>
