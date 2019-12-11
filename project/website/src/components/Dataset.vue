@@ -9,8 +9,8 @@
       contains the category of the drink, the type of glass in which the drink is served, the used ingredients and the recipe instruction.
     </p>
 
-    <p class="text-center">
-      <a class="btn btn-primary" target="_blank" href="https://www.kaggle.com/ai-first/cocktail-ingredients/download" role="button">Dowload Dataset</a>
+    <p class="text-right">
+      <a class="btn btn-primary" target="_blank" href="https://www.kaggle.com/ai-first/cocktail-ingredients/download" role="button">Download Dataset</a>
     </p>
 
     <div class="container">

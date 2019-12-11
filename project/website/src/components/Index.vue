@@ -12,6 +12,12 @@
           <b-tab title="Community Detection">
             <CommunityDetection />
           </b-tab>
+          <b-tab title="WordClouds">
+            <WordClouds />
+          </b-tab>
+          <b-tab title="Explainer Notebook">
+            <ExplainerNotebook />
+          </b-tab>
         </b-tabs>
       </b-col>
     </b-row>
@@ -22,13 +28,17 @@
 import Dataset from './Dataset.vue'
 import Analysis from './Analysis.vue'
 import CommunityDetection from './CommunityDetection.vue'
+import WordClouds from './WordClouds.vue'
+import ExplainerNotebook from './ExplainerNotebook.vue'
 
 export default {
   name: 'Index',
   components: {
     Dataset,
     Analysis,
-    CommunityDetection
+    CommunityDetection,
+    WordClouds,
+    ExplainerNotebook
   }
 }
 </script>
