@@ -15,6 +15,7 @@ export default {
 
 html, body, #app {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .tabs .card-header {
@@ -22,7 +23,8 @@ html, body, #app {
 }
 
 .tab-content {
-  margin-left: 200px;
+  margin-left: 130px;
+  padding: auto 30px;
 }
 
 </style>
